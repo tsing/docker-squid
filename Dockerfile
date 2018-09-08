@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:edge
 
 RUN apk add --update squid && rm -rf /var/cache/apk/*
 
